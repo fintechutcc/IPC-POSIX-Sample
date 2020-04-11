@@ -3,6 +3,7 @@
 
 <code>
   gcc -o producer.o producer.c
+  
   gcc -o consumer.o consumer.c
 </code>
 
@@ -11,5 +12,6 @@
 
 <code>
   ./producer.o
+  
   ./consumer.o
 </code>
