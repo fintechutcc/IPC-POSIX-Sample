@@ -2,9 +2,9 @@
 ตัวอย่างอย่างง่ายของการใช้ POSIX API สำหรับ Inter-Process Communication การคอมไพล์ใช้คำสั่งพื้นฐานดังนี้
 
 <code>
-  gcc -o producer.o producer.c
+  gcc -o producer.o producer.c -lrt
   
-  gcc -o consumer.o consumer.c
+  gcc -o consumer.o consumer.c -lrt
 </code>
 
 ## วิธีการรัน
